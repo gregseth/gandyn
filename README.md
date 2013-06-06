@@ -14,6 +14,7 @@ Prequisites
 -----------
 First of all you have to enable XML-RPC interface for your domain on Gandi web interface.
 Gandi will then give you an API key. Copy paste it to your gandyn config file. 
+Pyhton 3 is required.
 
 
 Installation
@@ -28,7 +29,7 @@ The python standard way works.
     $ wget -O gandyn.tar.gz https://github.com/Chralu/gandyn/tarball/<version>
     $ tar xvzf gandyn.tar.gz
     $ cd gandyn/src/
-    # python setup.py install
+    # python3 setup.py install
   
 Execution
 ---------
